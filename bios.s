@@ -11,12 +11,12 @@ INPUT_BUFFER:   .res $100
 
 .segment "BIOS"
 
-ACIA_DATA       = $5000
-ACIA_STATUS     = $5001
-ACIA_CMD        = $5002
-ACIA_CTRL       = $5003
-PORTA           = $6001
-DDRA            = $6003
+ACIA_DATA       = $8400
+ACIA_STATUS     = $8401
+ACIA_CMD        = $8402
+ACIA_CTRL       = $8403
+PORTA           = $9001
+DDRA            = $9003
 
 LOAD:
                 rts
